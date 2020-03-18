@@ -4,7 +4,7 @@
 #
 Name     : perl-PadWalker
 Version  : 2.3
-Release  : 11
+Release  : 12
 URL      : https://cpan.metacpan.org/authors/id/R/RO/ROBIN/PadWalker-2.3.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/R/RO/ROBIN/PadWalker-2.3.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libp/libpadwalker-perl/libpadwalker-perl_2.3-1.debian.tar.xz
@@ -78,7 +78,7 @@ make TEST_VERBOSE=1 test
 %install
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/perl-PadWalker
-cp %{_builddir}/PadWalker-2.3/deblicense/copyright %{buildroot}/usr/share/package-licenses/perl-PadWalker/be9e685370fd4b4ebc21dc5cee1372bdede78710
+cp %{_builddir}/debian/copyright %{buildroot}/usr/share/package-licenses/perl-PadWalker/be9e685370fd4b4ebc21dc5cee1372bdede78710
 if test -f Makefile.PL; then
 make pure_install PERL_INSTALL_ROOT=%{buildroot} INSTALLDIRS=vendor
 else
@@ -102,5 +102,5 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/PadWalker.pm
-/usr/lib/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/auto/PadWalker/PadWalker.so
+/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/PadWalker.pm
+/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/auto/PadWalker/PadWalker.so
