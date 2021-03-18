@@ -4,7 +4,7 @@
 #
 Name     : perl-PadWalker
 Version  : 2.5
-Release  : 14
+Release  : 15
 URL      : https://cpan.metacpan.org/authors/id/R/RO/ROBIN/PadWalker-2.5.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/R/RO/ROBIN/PadWalker-2.5.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libp/libpadwalker-perl/libpadwalker-perl_2.3-1.debian.tar.xz
@@ -102,5 +102,5 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/PadWalker.pm
-/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/auto/PadWalker/PadWalker.so
+/usr/lib/perl5/vendor_perl/5.32.1/x86_64-linux-thread-multi/PadWalker.pm
+/usr/lib/perl5/vendor_perl/5.32.1/x86_64-linux-thread-multi/auto/PadWalker/PadWalker.so
