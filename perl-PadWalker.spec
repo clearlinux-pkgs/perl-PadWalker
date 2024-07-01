@@ -4,7 +4,7 @@
 #
 Name     : perl-PadWalker
 Version  : 2.5
-Release  : 22
+Release  : 23
 URL      : https://cpan.metacpan.org/authors/id/R/RO/ROBIN/PadWalker-2.5.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/R/RO/ROBIN/PadWalker-2.5.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libp/libpadwalker-perl/libpadwalker-perl_2.3-1.debian.tar.xz
